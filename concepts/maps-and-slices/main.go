@@ -1,15 +1,27 @@
 package main
 
-import "log"
+import (
+	"log"
+)
+
+type User struct {
+	FirstName string
+	LastName string
+}
 
 func main() {
-	var myString string
-	var myInt int
+	myMap := make(map[string]User)
 
-	myString = "Hi"
-	myInt = 11
+	me := User {
+		FirstName: "Matthias",
+		LastName: "Heylen",
+	}
 
-	mySecondString := "another string"
+	myMap["me"] = me
 
-	log.Println(myString, mySecondString, myInt)
+	log.Println(myMap["me"].FirstName)
+
+	names := []string{"one", "seven", "fish", "cat"}
+
+	log.Println(names)
 }
