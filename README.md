@@ -1,19 +1,19 @@
-# GO PPP - Go Playground Projects
+# GO PPP - Go Projects
 
-Welcome to the GO PPP - Go Playground Projects! 🚀
+Welcome to the GO PPP - Go PPP! 🚀
 
 This repository is a dynamic collection of hands-on projects and experiments, exploring various fundamental concepts of Golang. Dive in and explore the world of Go through the following folders:
 
 ## 1. hello-web-project
-   - **Description:** This directory hosts the Hello Web Project, a dynamic exploration of Golang's capabilities in web development. From handling HTTP requests to diving into the essentials of web applications, this project serves as a starting point for anyone eager to get hands-on with Golang on the web.
+   - **Description:** This directory hosts the Hello Web Project, a dynamic exploration of Golang's capabilities in web development. From handling HTTP requests to diving into the essentials of web applications, this project serves as a starting point for anyone eager to get hands-on with Golang on the web. 🌐
 
 ## 2. bookings
-   - **Description:** Behold, the Bookings directory! This is where the magic happens. Explore the intricate details of a Bed & Breakfast website built entirely with Golang. From handling reservations to managing the backend intricacies, this project encapsulates real-world application development in Golang.
+   - **Description:** Behold, the Bookings directory! This is where the magic happens. Explore the intricate details of a Bed & Breakfast website built entirely with Golang. From handling reservations to managing the backend intricacies, this project encapsulates real-world application development in Golang. 🏨
 
 ## 3. concepts
-   - **Description:** The Concepts directory is a treasure trove of small projects aimed at solidifying your understanding of Golang basics. From loops and ranging to decision structures, this collection provides bite-sized coding exercises to reinforce your knowledge and enhance your coding skills.
+   - **Description:** The Concepts directory is a treasure trove of small projects aimed at solidifying your understanding of Golang basics. From loops and ranging to decision structures, this collection provides bite-sized coding exercises to reinforce your knowledge and enhance your coding skills. 🧩
 
-## Getting Started
+## Getting Started 🚀
 
 Before diving into the projects, make sure you have the following tools and dependencies installed on your machine:
 
@@ -42,14 +42,14 @@ Before diving into the projects, make sure you have the following tools and depe
 
 7. **Simple DataTables for Admin Dashboard:** For a clean table in the Admin Dashboard, consider using Simple DataTables. Get started with DataTables at [Simple DataTables GitHub](https://github.com/fiduswriter/simple-datatables).
 
-8. **Example Integration:**
+   - **Example Integration:**
      ```html
      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
      <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.js"></script>
      <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
      ```
 
-9. **Database Configuration:**
+8. **Database Configuration:**
    - Copy the `database-example.yml` file to `database.yml`.
    - Open `database.yml` and fill in the details for the `development` environment.
 
@@ -63,7 +63,7 @@ Before diving into the projects, make sure you have the following tools and depe
         pool: 5
       ```
 
-10. **Soda Migrate Commands:**
+9. **Soda Migrate Commands:**
    - **Run Migrations:**
      ```bash
      soda migrate up
