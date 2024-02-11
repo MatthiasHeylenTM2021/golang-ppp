@@ -40,16 +40,30 @@ Before diving into the projects, make sure you have the following tools and depe
 
 6. **Foundation for Email Templates:** For email templates, you can use the Foundation framework. Check out the available templates at [Foundation Email Templates](https://get.foundation/emails/email-templates.html).
 
-7. **Simple DataTables for Admin Dashboard:** For a clean table in the Admin Dashboard, consider using Simple DataTables. Get started with DataTables at [DataTables Official Website](https://datatables.net/).
+7. **Simple DataTables for Admin Dashboard:** For a clean table in the Admin Dashboard, consider using Simple DataTables. Get started with DataTables at [Simple DataTables GitHub](https://github.com/fiduswriter/simple-datatables).
 
-   - **Example Integration:**
+8. **Example Integration:**
      ```html
      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
      <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.js"></script>
      <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
      ```
 
-8. **Soda Migrate Commands:**
+9. **Database Configuration:**
+   - Copy the `database-example.yml` file to `database.yml`.
+   - Open `database.yml` and fill in the details for the `development` environment.
+
+      ```yaml
+      development:
+        dialect: postgres
+        database: bookings
+        user: YOUR_POSTGRES_USER
+        password: YOUR_POSTGRES_PASSWORD
+        host: 127.0.0.1
+        pool: 5
+      ```
+
+10. **Soda Migrate Commands:**
    - **Run Migrations:**
      ```bash
      soda migrate up
@@ -65,6 +79,6 @@ Before diving into the projects, make sure you have the following tools and depe
 
 Now you're all set! Clone this repository to your local environment, navigate to the specific project directory you want to explore, and start tinkering, experimenting, and learning!
 
-Feel free to customize the database connection string, email templates, DataTables integration, and Soda migrate commands based on your preferences and project requirements.
+Feel free to customize the database connection string, email templates, DataTables integration, and database configuration based on your preferences and project requirements.
 
 Happy coding! 🚀
