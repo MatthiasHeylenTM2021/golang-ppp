@@ -46,8 +46,10 @@ Before diving into the projects, make sure you have the following tools and depe
 
    - **Example Integration:**
      ```html
-    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
-    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>
+     
+     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
+     <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript    
+    
      ```
 
 8. **Database Configuration:**
