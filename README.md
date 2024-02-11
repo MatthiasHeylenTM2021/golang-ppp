@@ -2,7 +2,7 @@
 
 Welcome to the GO PPP! 🚀
 
-Course Projects/Exercises for Udemy Course: Building Modern Web Applications with Go (Golang)
+Course Projects/Exercises for Udemy Course: [Building Modern Web Applications with Go (Golang)](https://www.udemy.com/course/building-modern-web-applications-with-go/)
 
 This repository is a dynamic collection of hands-on projects and experiments, exploring various fundamental concepts of Golang. Dive in and explore the world of Go through the following folders:
 
