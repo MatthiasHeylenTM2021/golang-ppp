@@ -1,10 +1,23 @@
 .my-footer {
-    height: 5em;
-    background-color: #163b65;
-    margin-top: 1.5em;
-    padding: 1em;
-    color: white;
-    font-size: 80%;
+    background: linear-gradient(135deg, #3c3c3c, #1e1e1e);
+    left:  0;
+    bottom:  0;
+    width:  100%;
+    padding:  1em;
+    text-align: center;
+    padding-left: 5em;
+    color: #fff;
+    font-size:  80%;
+    box-sizing: border-box;
+    margin-top: auto;
+}
+
+.my-footer p {
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font */
+    font-size:  14px; /* Increase font size */
+    word-spacing:  2px; /* Space out words */
+    line-height:  1.5; /* Increase line height */
+    color: #f1f1f1; /* Light text color for contrast */
 }
 
 .room-image {
@@ -14,6 +27,13 @@
 .notie-container {
     box-shadow: none;
 }
+
+body {
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}       
 
 .datepicker {
     z-index: 10000;
