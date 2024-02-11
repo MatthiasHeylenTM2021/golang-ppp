@@ -1,6 +1,6 @@
 # GO PPP - Go Projects
 
-Welcome to the GO PPP - Go PPP! 🚀
+Welcome to the GO PPP! 🚀
 
 This repository is a dynamic collection of hands-on projects and experiments, exploring various fundamental concepts of Golang. Dive in and explore the world of Go through the following folders:
 
